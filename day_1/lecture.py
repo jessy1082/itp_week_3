@@ -46,9 +46,9 @@ print(my_sheet) # <Worksheet "Sheet1">
 # wb.get_sheet_by_name('sheet_name[0]')
 
 
-#my_sheet = my_workbook.get_sheet_by_name('Sheet 1')
-#verify
-#type(my_sheet)  # Result-->  <class 'openpyxl.worksheet.worksheet.Worksheet'>
+# my_sheet = my_workbook.get_sheet_by_name('Sheet 1')
+# verify
+# type(my_sheet)  # Result-->  <class 'openpyxl.worksheet.worksheet.Worksheet'>
 
 apple_cell = my_sheet['B1'] 
 print(apple_cell.value) # Apples
